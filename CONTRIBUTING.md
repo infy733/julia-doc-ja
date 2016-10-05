@@ -9,6 +9,6 @@
  1. すぐにPRを作成する。
  2. [Projectのページ](https://github.com/hshindo/julia-doc-ja/projects)から Add cardsでPRをworking の列に移動。
  3. TBDから対応するカードを消す。
-5. 原文はコメントアウトせず、消去する。
+5. 原文はコメントアウトして残す。
 6. 原文に忠実に訳すよりも、技術者が読んで意味が通る(最短時間で理解できる)文章であることを優先する。
 7. [総称用法の`you`は訳さない](http://einzelzelle.blogspot.jp/2014/01/blog-post.html)
