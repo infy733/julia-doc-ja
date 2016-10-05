@@ -3,7 +3,7 @@
 .. currentmodule:: Base
 
 **************************
- 多次元配列
+ Multi-dimensional Arrays
 **************************
 
 Julia, like most technical computing languages, provides a first-class
