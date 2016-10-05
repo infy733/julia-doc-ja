@@ -12,3 +12,8 @@
 | :------------------------------- | :-------------
 | repository                       | リポジトリ
 | document, documentation          | ドキュメント
+| first-class                      | 第一級
+| technical computing              | 技術計算
+| scalar                           | スカラー
+| reference                        | 参照
+| user                             | ユーザー
