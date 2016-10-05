@@ -4,6 +4,7 @@
 /dist-extras
 /julia
 /usr
+/doc/src
 /usr-staging
 /Make.user
 /julia-*

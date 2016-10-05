@@ -36,6 +36,10 @@ OS Xの場合はGUIからMacTexをインストールしてください。
     $ make html
     $ make latexpdf
 
+訳注:
+    ビルドにあたってセクションの重複に対する警告が出ますがこれは元の文書と同様です。
+    成功しない場合は手動でSphinxのdependencyを入れるとうまくいく場合があります。(`pip install -r requirements.txt`)
+
 
 <!-- File layout -->
 ファイルのレイアウト
