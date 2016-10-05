@@ -5,6 +5,9 @@
 1. ひらがなで書くのが適当な語の例は[こちら](http://www.yamanouchi-yri.com/yrihp/techwrt-2-4s/t-2-4s03fb.html)を参考にする。
 2. 日本語文中の括弧は全角`（）`に統一
 3. 進捗はgithubのプロジェクト機能を持ちいて管理する。
-4. ファイルごとに翻訳をする。開始した時点でPRを作成することで排他制御とする。翻訳途中のPRは頭に`WIP:`などとつけておく。
+4. ファイルごとに翻訳をする。開始した時点で以下を実行する。
+ 1. すぐにPRを作成する。
+ 2. [Projectのページ](https://github.com/hshindo/julia-doc-ja/projects)から Add cardsでPRをworking の列に移動。
+ 3. TBDから対応するカードを消す。
 5. 原文はコメントアウトせず、消去する。
 
