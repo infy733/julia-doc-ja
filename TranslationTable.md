@@ -17,3 +17,22 @@
 | scalar                           | スカラー
 | reference                        | 参照
 | user                             | ユーザー
+| syntax                           | シンタックス
+| iterable                         | iterable
+| range                            | 範囲、範囲表記
+| memory allocation                | メモリアロケーション
+| boolean                          | ブール値
+| iterate, iteration               | イテレート、イテレーション
+| trait                            | トレイト
+| fast linear index                | 高速線形インデックス
+| bitwise operator                 | ビットワイズ演算子
+| element-wise                     | 要素ごと
+| base type                        | 基本型
+| abstract type                    | 抽象型
+| high level operator              | 型演算子
+| sparce matrix                    | スパース行列
+| dense matrix                     | 密行列
+| one-based indexing               | １開始インデックス
+| constructor                      | コンストラクタ
+| built-in method                  | ビルトインメソッド
+| vector                           | ベクトル
