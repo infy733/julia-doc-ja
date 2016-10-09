@@ -1,0 +1,12 @@
+env:
+  global:
+  - GIT_COMMITER_NAME="joemphilips@travis-ci"
+  - GIT_COMMITER_EMAIL="joemphilips@gmail.com"
+  - GIT_AUTHOR_NAME="joemphilips"
+  - GIT_AUTHOR_EMAIL="joemphilips@gmail.com"
+  - secure: Rv0dHt0NNQ4p0OVelki5JEYQaKwODaf34ms2bOtrfct0SNsS8QeJc7eL/CAbEA4iM7UqtwxY+EmDKemwcTVpc7GtV+FhZBsN1aZS8iW97CzkO59B2X4fGstiv70Ye6BPxlJLyWiWy7kCGbtCx1m3fNe2uYyptRwt2V1QCtVH1szoyjS6FeOYDCoJ4/cF3adpWWuJ63y7UuMmrc2gwc7kZsxOb7t4ZxD1m8LWs0/HLwmWqWoVVcY8vZHpq/KyAxRj5DaufkkEL2rmBD8smUWS/gHAm2lw+CV+fQ+n1pKPHbU/KIOTHExQ4PbE5sACZiUQW501Vm4zo44WdT/tVUB5rTt9sUxdCFgqGT1ki3LS2YwNnwMpUr0yqLBJnptYQB+mSQPHczaXbKxNaeLijvaoj2qjp0OK4iu9ZypE3HyEUpzRFs5iTTqHVK3RWeFk0p1H+cmGPZlPFR6uR6vD54AuUFwCi8F2W/Tr0xloE5AUw7jU48kbH6BQ35MGNjTt0uE6yIaRVtMb/jn2plhezw3yPfD6oRnYhnW6duwflSVCHU14jQednm9zqCP+G5135QZHHnn95F2jkxzCw95s04Z2x+Z1uPtDUWvJtK6nL7lkeLXXm/VG1f2uy1Nx/UuZpvToygrQDNpedSe3kPsu2hVxRi8BeFKd2KXbtfJoYrWq4k0=
+    # above is github personal access token
+script:
+  - cd doc && make clean && make html && cd ..
+after_success:
+  - ./deploy.sh
