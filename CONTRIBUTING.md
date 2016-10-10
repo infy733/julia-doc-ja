@@ -34,9 +34,19 @@
 
 ## 進め方
 
+### reviewまでの手順
+
 1. ファイルごとに翻訳をする。開始した時点で以下を実行する。
  * すぐにPRを作成する。
  * [Projectのページ](https://github.com/hshindo/julia-doc-ja/projects)から Add cardsでPRをworking の列に移動。
  * TBDから対応するカードを消す。
 1. 翻訳が全て終わったら、いったん自己点検した後にPRのページで終わった旨を宣言し、プロジェクトページのカードをworkingからreviewingに変更する。
-1. マージしたらDoneに移す。
+
+### reviewの手順
+
+
+PR内の最新のドキュメントのhtmlをs3で保持しているので、以下のURLから閲覧する。
+
+`http://juliadocja.s3-website-ap-northeast-1.amazonaws.com/<PR番号>`
+
+差分のチェックと、Rendering後のhtmlが正しいことの確認とが終了したら、マージしてProjectのカードをreviewからDoneに移す。 -> 自動でmasterが更新され、[gh-pages](https://naist-cl-parsing.github.io/julia-doc-ja/) が更新される。

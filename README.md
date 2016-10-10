@@ -7,6 +7,9 @@ https://github.com/JuliaLang/julia/tree/v0.5.0/doc
 
 翻訳時の規約などは`CONTRIBUTING.md`を参照してください。
 
-ドキュメントは`doc`以下にあります。
+ドキュメントのソースは`doc`以下にあります。
+ビルド方法などは`doc/README.md`を参照してください。
+
+翻訳中のドキュメントのmasterのhtmlは `https://naist-cl-parsing.github.io/julia-doc-ja/` でホストしています。
 
 [origin_doc]: http://docs.julialang.org/en/release-0.5/manual/
